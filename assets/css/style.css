@@ -372,7 +372,7 @@ section .container {
 --------------------------------------------------------------*/
 .about-me .content h3 {
   font-weight: 700;
-  font-size: 26px;
+  font-size: 36px;
   color: #00B0F0;
 }
 
@@ -393,6 +393,29 @@ section .container {
 
 .about-me .content p:last-child {
   margin-bottom: 0;
+}
+
+.contact.container .section-title .social-links {
+  margin-top: 20px;
+  display: flex;
+}
+
+.contact.container .section-title .social-links a {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.contact.container .section-title .social-links a:hover {
+  background: #00B0F0;
 }
 
 /*--------------------------------------------------------------
@@ -590,7 +613,7 @@ section .container {
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-bottom: 20px;
   color: #fff;
 }

@@ -98,7 +98,7 @@
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
     });
   }, {
-    offset: '85%'
+    offset: '75%'
   });
 
   // Testimonials carousel (uses the Owl Carousel library)
